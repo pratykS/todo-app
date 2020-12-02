@@ -13,7 +13,7 @@ const TodoList = () => {
         ? todos.map((todo, index) => {
             return <Todo key={index} todo={todo} />;
           })
-        : "No todos, yay!"}
+        : "Well, It seems like there is no todos today !"}
     </ul>
   );
 };
